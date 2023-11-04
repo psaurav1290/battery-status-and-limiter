@@ -1,13 +1,13 @@
 ###### *Author- [Saurav Priyadarshi](https://github.com/psaurav1290/)*
 # Battery Status & Limiter
-This is a simple battery utility script written in [AutoHotkey v2.0](https://www.autohotkey.com/).
+This is a simple battery utility script written in [AutoHotkey v2.0](https://www.autohotkey.com/). It can be used to display current battery percentage right in the tray icon and also limit battery level through windows notification alerts.
 
 _Docs- [AutoHotkey v2 documentation](https://www.autohotkey.com/docs/v2/)._
 
 ## Key Features-
-1. Displays current battery percentage right in the tray icon unlike the inaccurate representation battery level in default windows battery icon. The default icon usually gives wrong impression of the battery charge level.
+1. Displays current battery percentage right in the tray icon unlike the inaccurate representation battery level in default windows battery icon. The default icon usually gives wrong impression of the battery charge level.  
 	![Battery utility tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/tray.png)
-2. Hovering on the tray icon displays tooltip containing- plugged in status, battery level, power saving mode, theme of the tray icon.
+2. Hovering on the tray icon displays tooltip containing- plugged in status, battery level, power saving mode, theme of the tray icon.  
 	![Battery utility tray tooltip](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/tray-tooltip.png)
 3. The hotkey `Ctrl + Alt + Shift + D` toggles dark mode, i.e.- switches between the light and dark theme of the tray icon. Light mode is the default mode.
 4. Sends battery level alerts to prevent over charging and deep discharges and thus increase battery life. There are following three levels of alert-
@@ -16,9 +16,9 @@ _Docs- [AutoHotkey v2 documentation](https://www.autohotkey.com/docs/v2/)._
 	- Info (every 3 *`delta`* sec)- When the battery is charged up to upper limit, i.e. >=85
 	
 	By default - `delta = 5sec`
-5. Charging and battery saving icons included in icon pack.
-	![Charging made tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/charging-mode.png)
-	![Battery saving mode tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/eco-mode.png)
+5. Charging and battery saving icons included in icon pack.  
+	![Charging made tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/charging-mode.png)  
+	![Battery saving mode tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/eco-mode.png)  
 
 ## Setting up-
 1. Download and install [AutoHotkey v2.0](https://www.autohotkey.com/).
