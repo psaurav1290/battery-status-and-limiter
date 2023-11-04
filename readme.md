@@ -5,8 +5,9 @@ This is a simple battery utility script written in [AutoHotkey v2.0](https://www
 _Docs- [AutoHotkey v2 documentation](https://www.autohotkey.com/docs/v2/)._
 
 ## Key Features-
-1. Displays current battery percentage right in the tray icon unlike the inaccurate representation battery level in default windows battery icon. The default icon usually gives wrong impression of the battery charge level.
+1. Displays current battery percentage right in the tray icon unlike the inaccurate representation battery level in default windows battery icon. The default icon usually gives wrong impression of the battery charge level.![Battery utility tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/tray.png)
 2. Hovering on the tray icon displays tooltip containing- plugged in status, battery level, power saving mode, theme of the tray icon.
+	![Battery utility tray tooltip](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/tray-tooltip.png)
 3. The hotkey `Ctrl + Alt + Shift + D` toggles dark mode, i.e.- switches between the light and dark theme of the tray icon. Light mode is the default mode.
 4. Sends battery level alerts to prevent over charging and deep discharges and thus increase battery life. There are following three levels of alert-
 	- Error (every *`delta`* sec)- When the battery level is critically low, i.e. <= 10%
@@ -14,13 +15,14 @@ _Docs- [AutoHotkey v2 documentation](https://www.autohotkey.com/docs/v2/)._
 	- Info (every 3 *`delta`* sec)- When the battery is charged up to upper limit, i.e. >=85
 	
 	By default - `delta = 5sec`
-5. Charging and battery saving icons included in icon pack.
+5. Charging and battery saving icons included in icon pack.	![Charging made tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/charging-mode.png)
+![Battery saving mode tray icon](https://raw.githubusercontent.com/psaurav1290/battery-status-and-limiter/main/screenshots/eco-mode.png)
 
 ## Setting up-
 1. Download and install [AutoHotkey v2.0](https://www.autohotkey.com/).
 2. Clone this repository.
 	OR
-	Alternatively click [here](https://github.com/psaurav1290/ahk-scripts/archive/refs/heads/main.zip) to download the repository as zip. Extract the zip.
+	Alternatively click [here](https://github.com/psaurav1290/battery-status-and-limiter/archive/refs/heads/main.zip) to download the repository as zip. Extract the zip.
 3. Run the `BatteryUtility.ahk`.
 
 ## Running the script on startup-
